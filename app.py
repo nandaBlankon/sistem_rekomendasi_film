@@ -9,10 +9,10 @@ from sentence_transformers import SentenceTransformer
 from deep_translator import GoogleTranslator
 import matplotlib.pyplot as plt
 
-# === Pengaturan Halaman ===
+# ==== Pengaturan Halaman ====
 st.set_page_config(layout="wide")
 
-# === Konstanta dan Path ===
+# ==== Konstanta dan Path ====
 TMDB_API_KEY = "1ec75235bb4ad6c9a7d6b6b8eac6d44e"
 DATASET_PATH = "imdb/"
 MODEL_PATH = os.path.join(DATASET_PATH, "multilingual_bert/")
