@@ -21,7 +21,7 @@ MOVIE_FILE = os.path.join(DATASET_PATH, "imdb_tmdb_Sempurna.parquet")
 PLACEHOLDER_IMAGE = "https://www.jakartaplayers.org/uploads/1/2/5/5/12551960/9585972.jpg?1453219647"
 TMDB_IMAGE_BASE_URL = "https://image.tmdb.org/t/p/w500"
 
-# === Load Dataset ===
+# === Load Dataset === 
 @st.cache_data
 def load_data():
     return pd.read_parquet(MOVIE_FILE)
