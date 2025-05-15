@@ -1,29 +1,27 @@
-===================================================
-FINAL PROJECT: IMDB MOVIE DATA ANALYSIS & APP
-===================================================
+# 🎬 FINAL PROJECT: IMDB MOVIE DATA ANALYSIS & APP
 
-Author    : [NAMA KAMU]
-Date      : [TANGGAL]
-Version   : 1.0
-Repository: [URL GITHUB KAMU]
-   
-===================================================
-📋 DESKRIPSI
-===================================================
+**Author:** [NAMA KAMU]  
+**Date:** [TANGGAL]  
+**Version:** 1.0  
+**Repository:** [URL GITHUB KAMU]
 
-Project ini bertujuan untuk melakukan analisis data film dari dataset IMDb, 
-serta menyediakan aplikasi sederhana berbasis Streamlit untuk eksplorasi data 
+---
+
+## 📋 Deskripsi
+
+Project ini bertujuan untuk melakukan analisis data film dari dataset IMDb,  
+serta menyediakan aplikasi sederhana berbasis **Streamlit** untuk eksplorasi data  
 secara interaktif.
 
-Folder ini berisi:
-- Notebook Jupyter untuk eksplorasi dan analisis data.
-- File python (app.py) untuk aplikasi Streamlit.
-- Dataset dan dokumentasi tambahan.
+Isi folder ini:
 
-===================================================
-📂 STRUKTUR FOLDER
-===================================================
+- 📓 Notebook Jupyter untuk eksplorasi dan analisis data.
+- 🖥️ `app.py` sebagai aplikasi utama berbasis Streamlit.
+- 📁 Dataset dan dokumentasi pendukung.
 
+---
+
+## 📂 Struktur Folder
 |-- .streamlit/          → Konfigurasi Streamlit
 |-- imdb/                → Dataset film IMDb
 |-- Screenshot/          → Hasil screenshot aplikasi
@@ -35,10 +33,7 @@ Folder ini berisi:
 |-- packages.txt         → Alternatif daftar package
 |-- query.txt            → Query data untuk analisis
 
-===================================================
-🚀 CARA MENJALANKAN PROJECT
-===================================================
-
+## 🚀 CARA MENJALANKAN PROJECT
 1. Clone repository:
    git clone https://github.com/[username]/[repo-name].git
    cd [repo-name]
@@ -56,28 +51,17 @@ Folder ini berisi:
 
 5. Untuk eksplorasi manual, buka file film.ipynb di Jupyter Notebook.
 
-===================================================
-🛠️ PERSYARATAN
-===================================================
-
+## 🛠️ PERSYARATAN
 - Python 3.8+
 - Jupyter Notebook
 - Streamlit
 - Pandas, Numpy, Matplotlib, dll. (tercantum di requirements.txt)
 
-===================================================
-⚠️ CATATAN
-===================================================
-
+## ⚠️ CATATAN
 - Pastikan folder imdb/ berisi dataset yang sesuai.
 - Baca file "01. Baca dulu.txt" untuk instruksi tambahan.
 - Jangan lupa untuk mengatur environment sebelum menjalankan.
 
-===================================================
-📄 LICENSE
-===================================================
-
+## 📄 LICENSE
 Project ini bersifat [PRIVATE / OPEN SOURCE].  
 Gunakan sesuai dengan ketentuan yang berlaku.
-
-===================================================
