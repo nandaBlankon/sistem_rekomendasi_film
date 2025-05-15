@@ -28,7 +28,7 @@ def load_data():
 
 df_movies = load_data()
 
-# === Load Model dan Embedding ===
+# === Load Model dan Embedding === 
 @st.cache_resource
 def load_model():
     return SentenceTransformer(MODEL_PATH)
