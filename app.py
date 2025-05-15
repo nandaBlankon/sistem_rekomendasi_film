@@ -7,7 +7,7 @@ import numpy as np
 import faiss
 from sentence_transformers import SentenceTransformer
 from deep_translator import GoogleTranslator
-import matplotlib.pyplot as plt
+import matplotlib.pyplot as plt 
 
 # ==== Pengaturan Halaman ====
 st.set_page_config(layout="wide")
