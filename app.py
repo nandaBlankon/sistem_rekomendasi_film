@@ -70,7 +70,7 @@ def translate_text(text):
     except:
         return text
 
-# === Cari Rekomendasi ===
+# === Cari Rekomendasi === 
 def search_bert(query, top_n=10, genre=None, min_year=None, max_year=None, min_rating=None):
     q_embed = model.encode([query], normalize_embeddings=True)
     if q_embed.shape[1] != index.d:
