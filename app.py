@@ -41,7 +41,7 @@ def load_embeddings():
 model = load_model()
 bert_embeddings = load_embeddings()
 
-# === FAISS Index ===
+# === FAISS Index === 
 d = bert_embeddings.shape[1]
 index = faiss.IndexFlatIP(d)
 faiss.normalize_L2(bert_embeddings)
