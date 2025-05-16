@@ -63,7 +63,7 @@ def get_movie_details(imdb_id):
         pass
     return "Sinopsis tidak tersedia", PLACEHOLDER_IMAGE
 
-# === Terjemah Bahasa Indonesia ===
+# === Terjemah Bahasa Indonesia === 
 def translate_text(text):
     try:
         return GoogleTranslator(source='auto', target='id').translate(text) if text else text
